@@ -1,19 +1,23 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
+
 body {
   height: 718px;
   width: 375px;
   background-color: black;
 }
+
 .bg {
   display: flex;
   flex-direction: column;
   background-image: url("logos/header-shapes\ mobile@2x\ \(1\).jpeg");
+  
   height: 718px;
   width: 375px; 
   left: 0px;
