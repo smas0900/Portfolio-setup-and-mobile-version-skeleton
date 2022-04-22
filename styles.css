@@ -22,10 +22,9 @@ body {
   width: 375px; 
   left: 0px;
   top: 0px;
-
 }
-.navigation {
 
+.navigation {
   width: 100%;
   height: 48px;
   display: flex;
@@ -58,6 +57,7 @@ body {
 .icons_list {
   margin-right: 10px;
 }
+
 .bg h1 {
   font-family: 'Poppins', sans-serif;
   font-size: 40px;
