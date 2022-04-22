@@ -18,9 +18,7 @@ body {
   flex-direction: column;
   background-image: url("logos/header-shapes\ mobile@2x\ \(1\).jpeg");
   height: 718px;
-  width: 375px; 
-  left: 0px;
-  top: 0px;
+  width: 375px;
 }
 
 .navigation {
