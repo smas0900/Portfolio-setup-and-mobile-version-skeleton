@@ -99,30 +99,26 @@
   font-family: 'Poppins', sans-serif;
 }
 
-
-body { 
+body {
   background-color: #e6e6e6;
-
 }
 
 .card h1 {
-margin-top: 12px;
-height: 36px;
-font-weight: 700, bold;
+  margin-top: 12px;
+  height: 36px;
+  font-weight: 700, bold;
 }
 
 .card {
-display: flex;
-flex-direction: column;
-background-color: rgb(255, 255, 255);
-padding: 1rem;
-grid-column-start: 2;
-grid-column-end: 3;
-
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  padding: 1rem;
+  grid-column-start: 2;
+  grid-column-end: 3;
 }
 
 .cards {
-
   display: grid;
   grid-template-columns: 12px auto 12px;
   grid-gap: 1rem;
@@ -155,11 +151,11 @@ grid-column-end: 3;
 }
 
 .para {
-margin-top: 20px;
-font-weight: 400;
-font-size: 15px;
-line-height: 24px;
-margin-bottom: 12px;
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  margin-bottom: 12px;
 }
 
 .list {
@@ -169,18 +165,19 @@ margin-bottom: 12px;
   list-style: none;
   margin-bottom: 24px;
 }
-.box{  
+
+.box {
   height: 24px;
 }
 
-.list button{
-  background-color: #EBEBFF;
+.list button {
+  background-color: #ebebff;
   border: none;
-  color: #6070FF;
+  color: #6070ff;
   height: 24px;
   width: 70px;
   margin-right: 2px;
-  padding: 4px, 12px,4px,12px;
+  padding: 4px, 12px, 4px, 12px;
   border-radius: 8px;
 }
 
@@ -188,18 +185,17 @@ margin-bottom: 12px;
   color: rgb(41, 142, 182);
 }
 
-.card_see{
+.card_see {
   font-weight: 500;
   size: 17px;
   line-height: 24px;
   width: 124px;
   height: 48px;
-  color: #6070FF;
+  color: #6070ff;
   border-radius: 8px;
-  border-color: #6070FF;
+  border-color: #6070ff;
   background-color: #ffffff;
   font-size: 17px;
-  font-weight: 500;
 }
 
 .aboutme {
@@ -225,7 +221,7 @@ margin-bottom: 12px;
   color: #6070ff;
   border-radius: 8px;
   border-color: #6070ff;
-  background-color: #ffffff;
+  background-color: #fff;
   font-size: 17px;
   font-weight: 500;
 }
@@ -258,7 +254,7 @@ margin-bottom: 12px;
   list-style: none;
 }
 
-.about_general-menu li a{
+.about_general-menu li a {
   background-color: #f7f7f9;
   border-radius: 8px;
   display: flex;
