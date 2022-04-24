@@ -117,7 +117,7 @@ body {
   padding: 1rem;
   grid-column-start: 2;
   grid-column-end: 3;
-  border: 1px solid #DFE1E6;
+  border: 1px solid #dfe1e6;
   box-sizing: border-box;
   border-radius: 16px;
 }
@@ -144,7 +144,6 @@ body {
   flex-direction: row;
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
-
 }
 
 .sec_color1 {
@@ -203,8 +202,8 @@ body {
   cursor: pointer;
   width: 124px;
   height: 48px;
-  border: 1px solid #6070FF;
-  color: #396DF2;
+  border: 1px solid #6070ff;
+  color: #396df2;
   font: normal 500 17px 'Poppins', sans-serif;
   border-radius: 8px;
   padding: 10px;
@@ -214,22 +213,22 @@ body {
 }
 
 .card_see:hover {
-  background-color: #6070FF;
+  background-color: #6070ff;
   color: #fff;
   border-radius: 8px;
 }
 
 .card_see:focus {
-  background-color: #2230D2;
+  background-color: #2230d2;
   color: #fff;
   border-radius: 8px;
 }
 
 .card_see:disabled,
 .card_see [disabled] {
-  border: 1px solid #5E6C84;
+  border: 1px solid #5e6c84;
   background-color: transparent;
-  color: #5E6C84;
+  color: #5e6c84;
   border-radius: 8px;
 }
 
@@ -238,7 +237,7 @@ body {
   padding: 70px;
 }
 
-.aboutme h1{
+.aboutme h1 {
   margin-top: 150px;
 }
 
@@ -259,9 +258,11 @@ body {
   width: 160px;
   height: 48px;
   align-items: center;
-  border: 1px solid #6070FF;
-  color: #396DF2;
-  font: normal 500 17px 'Poppins', sans-serif;
+  border: 1px solid #6070ff;
+  color: #396df2;
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px;
+  font-weight: 500;
   border-radius: 8px;
   padding: 10px;
   margin-top: 24px;
@@ -275,16 +276,16 @@ body {
 }
 
 .btn:focus {
-  background-color: #2230D2;
+  background-color: #2230d2;
   color: #fff;
   border-radius: 8px;
 }
 
 .btn:disabled,
 .card_see [disabled] {
-  border: 1px solid #5E6C84;
+  border: 1px solid #5e6c84;
   background-color: transparent;
-  color: #5E6C84;
+  color: #5e6c84;
   border-radius: 8px;
 }
 
