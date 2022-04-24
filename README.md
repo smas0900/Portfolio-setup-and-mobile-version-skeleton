@@ -1,6 +1,6 @@
-# Portfolio-setup-and-mobile-version-skeleton
+# Portfolio-mobile-version
  
-> In this porject we used linters and created the mobile version skeleton paga.
+> In this and created the mobile version webpage and combine the previous project webpage.
 
 
 ## Built With
