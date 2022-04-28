@@ -334,3 +334,113 @@ body {
   margin-right: 10px;
   margin-left: 10px;
 }
+
+.contact_form {
+  margin-top: 24px;
+  display: flex;
+  border-radius: 50px     0px      0           0;
+  flex-direction: column;
+  background:#6070FF;
+  background-image: url("logos/form-shapes-mobile.png");
+  background-repeat: inherit;
+  background-size: 375px 650px;
+  height: 779px;
+
+}
+
+.contact_form h2 {
+  margin-top: 103px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  font-weight: 700, bold;
+  color: white;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.contact_form p {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-bottom: 70px;
+}
+
+#full-name, #email-address {
+  border: 1px solid #CFD8DC;
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  height: 48px;
+  margin-bottom: 12px;
+}
+
+#message {
+  border: 1px solid #CFD8DC;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  border-radius: 8px;
+  height: 170px;
+  margin-bottom: 12px;
+}
+
+#fs-frm ul {
+  list-style: none;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+#fs-frm li {
+  display: flex;
+  flex-direction: column;
+  margin: .5em 0;
+  
+}
+
+.Sbtn {
+  background-color: white;
+  display: flex;
+  cursor: pointer;
+  line-height: 24px;
+  width: 160px;
+  height: 48px;
+  align-items: center;
+  border: 1px solid #6070ff;
+  color: #396df2;
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  border-radius: 8px;
+  padding: 10px;
+  margin-top: 1px;
+  margin-left: 24px;
+}
+
+.Sbtn:hover {
+  background-color: #001aff;
+  color: #fff;
+  border-radius: 8px;
+}
+
+.Sbtn:focus {
+  background-color: #2230d2;
+  color: #fff;
+  border-radius: 8px;
+}
+
+.Sbtn:disabled,
+.card_see [disabled] {
+  border: 1px solid #5e6c84;
+  background-color: transparent;
+  color: #5e6c84;
+  border-radius: 8px;
+}
