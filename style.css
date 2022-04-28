@@ -338,7 +338,7 @@ body {
 .contact_form {
   margin-top: 24px;
   display: flex;
-  border-radius: 50px 0px 0px;
+  border-radius: 50px 0 0;
   flex-direction: column;
   background: #6070ff;
   background-image: url("logos/form-shapes-mobile.png");
