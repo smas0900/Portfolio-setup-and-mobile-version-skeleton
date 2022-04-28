@@ -338,14 +338,13 @@ body {
 .contact_form {
   margin-top: 24px;
   display: flex;
-  border-radius: 50px     0px      0           0;
+  border-radius: 50px 0px 0px;
   flex-direction: column;
-  background:#6070FF;
+  background: #6070ff;
   background-image: url("logos/form-shapes-mobile.png");
   background-repeat: inherit;
   background-size: 375px 650px;
   height: 779px;
-
 }
 
 .contact_form h2 {
@@ -370,8 +369,9 @@ body {
   margin-bottom: 70px;
 }
 
-#full-name, #email-address {
-  border: 1px solid #CFD8DC;
+#full-name,
+#email-address {
+  border: 1px solid #cfd8dc;
   border-radius: 8px;
   font-style: normal;
   font-weight: 400;
@@ -382,7 +382,7 @@ body {
 }
 
 #message {
-  border: 1px solid #CFD8DC;
+  border: 1px solid #cfd8dc;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -402,8 +402,7 @@ body {
 #fs-frm li {
   display: flex;
   flex-direction: column;
-  margin: .5em 0;
-  
+  margin: 0.5em 0;
 }
 
 .Sbtn {
