@@ -212,6 +212,7 @@ body {
   margin-top: 24px;
   margin-bottom: 24px;
   margin-right: 20px;
+  transition: all 0.5s ease-out;
 }
 
 .card_see:hover {
@@ -380,6 +381,10 @@ body {
   margin-left: 24px;
   margin-right: 24px;
   margin-bottom: 70px;
+}
+
+.contact_form p:hover {
+  transform: translate(42px, 18px);
 }
 
 .boxStyle {
@@ -558,6 +563,14 @@ body {
   .snapshoot {
     width: min(100%);
     height: min(100%);
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+  }
+
+  .snapshoot:hover {
+    background-color: #fcc;
+    width: 90%;
+    height: 90%;
+    transform: rotate(360deg);
   }
 
   .tra_desk {
