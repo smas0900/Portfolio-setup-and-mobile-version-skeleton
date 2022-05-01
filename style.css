@@ -462,7 +462,6 @@ body {
 }
 
 @media (min-width: 780px) {
-
   .navigation__hamburger {
     display: none;
   }
@@ -510,7 +509,7 @@ body {
     font-weight: 700;
     font-size: 48px;
     line-height: 60px;
-    margin-top: 0em;
+    margin-top: 0;
   }
 
   .bgdesk p {
