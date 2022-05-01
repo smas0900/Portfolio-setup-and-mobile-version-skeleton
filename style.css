@@ -55,7 +55,7 @@
   margin-right: 25px;
 }
 
-.icons, 
+.icons,
 .iconsabt {
   list-style: none;
   display: flex;
@@ -102,7 +102,7 @@
 }
 
 body {
-  background-color: #E5E5E5;
+  background-color: #e5e5e5;
 }
 
 .card h1 {
@@ -330,7 +330,6 @@ body {
 .about_general-menu li {
   background-color: #f7f7f9;
   border-radius: 8px;
-
 }
 
 .about_general-menu li a {
@@ -463,8 +462,8 @@ body {
 }
 
 @media (min-width: 780px) {
- 
-  .navigation__hamburger{
+
+  .navigation__hamburger {
     display: none;
   }
 
@@ -479,7 +478,7 @@ body {
     font-size: 15px;
     align-items: center;
   }
-  
+
   .navDesk li {
     margin-right: 32px;
   }
@@ -494,7 +493,6 @@ body {
     background-image: url("./images/Headerx.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    background-repeat: no-repeat;
     background-attachment: inherit;
     background-size: cover;
     border-bottom-left-radius: 80px;
@@ -512,7 +510,7 @@ body {
     font-weight: 700;
     font-size: 48px;
     line-height: 60px;
-    margin-top: 0px;
+    margin-top: 0em;
   }
 
   .bgdesk p {
@@ -523,7 +521,7 @@ body {
     margin-left: 269px;
   }
 
-  .iconsabt{
+  .iconsabt {
     list-style: none;
     display: flex;
     margin-left: 9px;
@@ -538,7 +536,7 @@ body {
     grid-gap: 1rem;
     padding: 100px;
   }
-  
+
   .card {
     display: flex;
     flex-direction: row;
@@ -577,36 +575,34 @@ body {
     border-top-right-radius: 80px;
     margin-bottom: -80px;
   }
-  
+
   .aboutme_desk {
     width: min(50%);
     margin-right: 22px;
     margin-bottom: 166px;
     margin-top: 45px;
   }
-  
+
   .about_general_desktop {
     width: min(50%);
     margin-top: 146px;
   }
-  
+
   .about_general-menu {
     display: flex;
     align-items: flex-start;
-
   }
-  
+
   .external_link {
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;
   }
 
-   .about_general-menu li {
+  .about_general-menu li {
     margin-right: 24px;
     width: 100px;
     margin-bottom: 24px;
     border-radius: 8px;
-    
   }
 
   .about_general-menu img {
@@ -621,7 +617,7 @@ body {
     background: #6070ff;
     background-image: url("./images/contact\ formdesk.png");
     background-repeat: no-repeat;
-    background-size: contain ;
+    background-size: contain;
   }
 
   .contacts_cantain {
@@ -631,8 +627,7 @@ body {
   }
 
   .Sbtn {
-    margin-left: min(37%); 
+    margin-left: min(37%);
     margin-right: min(45%);
   }
-
 }
