@@ -567,7 +567,7 @@ body {
   }
 
   .snapshoot:hover {
-    background-color: #FFCCCC;
+    background-color: #fcc;
     width: 90%;
     height: 90%;
     transform: rotate(360deg);
